@@ -5,7 +5,7 @@ const router = Router();
 
 router.get("/", (req,res)=>{
     try{
-        res.send("Welcome to Memories-App-API");
+        res.send("Welcome to Media_App-API");
     }
     catch(err){
         console.error();
